@@ -23,7 +23,7 @@ export const SeekerBottomNav: React.FC = () => {
   return (
     <nav
       aria-label="Seeker navigation"
-      className="absolute bottom-0 inset-x-0 z-30 bg-white/95 backdrop-blur-md border-t border-slate-200/90 py-2 px-6 flex items-center justify-around shadow-lg"
+      className="absolute bottom-0 inset-x-0 z-30 bg-white/95 backdrop-blur-md border-t border-slate-200/90 pt-2 pb-[max(0.6rem,env(safe-area-inset-bottom))] px-6 flex items-center justify-around shadow-lg"
     >
       {/* Home / Map Tab */}
       <button
